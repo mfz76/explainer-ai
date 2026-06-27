@@ -2,7 +2,7 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config(
-    page_title="Explain It",
+    page_title="Lucid",
     page_icon="✦",
     layout="centered"
 )
@@ -147,7 +147,7 @@ div[data-testid="stButton"] button:hover {
 st.markdown("""
 <div class="header">
     <div class="eyebrow">✦ Powered by Llama 3.3</div>
-    <div class="title">Explain anything.</div>
+    <div class="title">Lucid.</div>
     <div class="subtitle">Type any topic. Get a clear, engaging explanation in seconds.</div>
 </div>
 """, unsafe_allow_html=True)
@@ -198,6 +198,6 @@ if st.button("Explain →"):
 
 # Footer
 st.markdown(
-    '<div class="footer">Llama 3.3 · Groq · Streamlit · Built by Faraz</div>',
+    '<div class="footer">Lucid · Llama 3.3 · Groq · Built by Faraz</div>',
     unsafe_allow_html=True
 )
